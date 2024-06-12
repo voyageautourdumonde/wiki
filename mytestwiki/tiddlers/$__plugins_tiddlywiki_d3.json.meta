@@ -1,0 +1,8 @@
+dependents: 
+description: D3 data visualisation demo
+list: readme
+name: D3
+plugin-type: plugin
+title: $:/plugins/tiddlywiki/d3
+type: application/json
+version: 5.3.3
