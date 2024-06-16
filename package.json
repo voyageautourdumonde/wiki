@@ -1,15 +1,27 @@
 {
   "name": "wiki",
   "version": "1.0.0",
-  "description": "",
+  "description": "Build my wiki automatically with Github Actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./node_modules/tiddlywiki/tiddlywiki.js . --build index"
   },
-  "author": "",
+  "author": "Nous",
   "license": "ISC",
   "dependencies": {
     "tiddlywiki": "^5.3.3",
     "vercel": "^34.2.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voyageautourdumonde/wiki.git"
+  },
+  "keywords": [
+    "Tiddler",
+    "TiddlyWiki"
+  ],
+  "bugs": {
+    "url": "https://github.com/voyageautourdumonde/wiki/issues"
+  },
+  "homepage": "https://github.com/voyageautourdumonde/wiki#readme"
 }
